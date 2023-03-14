@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
     $linha = readline();
     $valores = explode(' ',$linha);
