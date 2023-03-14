@@ -4,9 +4,8 @@
     $a = intval($valores[0]);
     $b = intval($valores[1]);
 
-    $c = $a % $b;
 
-    if($c == 0){
+    if($a%$b==0||$b%$a==0){
         echo "Sao Multiplos\n";
     }
     else{
