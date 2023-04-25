@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Escolha a operação desejada</h1>
+    <hr>
+    <form action="form.php" method="get">
+        <div>
+            <input type="radio" name = "op" value="SO">
+            <label for="op">Somar</label>
+            <input type="radio" name = "op" value="SU">
+            <label for="op">Subtrair</label>
+            <input type="radio" name = "op" value="DI">
+            <label for="op">Dividir</label>
+            <input type="radio" name = "op" value="MU">
+            <label for="op">Multiplicar</label>
+        </div>
+        <div>
+            <label for="n1">Numero</label>
+            <input type="number" name = "n1" placeholder="Digite o numero">
+        </div>
+        <div>
+            <label for="n2">Numero</label>
+            <input type="number" name = "n2" placeholder="Digite o numero">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
